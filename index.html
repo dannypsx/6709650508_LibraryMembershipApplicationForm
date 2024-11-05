@@ -30,10 +30,11 @@
         </div>
 
         <label for="student-id">รหัสนักศึกษา <span class="required">*</span></label>
-        <input type="text" id="student-id" name="student-id" pattern="\d{8}" title="กรุณากรอกรหัสนักศึกษา 8 หลัก" required>
+        <input type="text" id="student-id" name="student-id" pattern="\d{10}" title="กรุณากรอกรหัสนักศึกษา 10 หลัก" required>
 
         
         <div class="fac">
+            
             <label for="faculty">คณะที่ศึกษา <span class="required">*</span></label>
             <select id="faculty" name="faculty" required>
                 <option value="">-- กรุณาเลือกคณะ --</option>
@@ -74,6 +75,31 @@
             <label for="dob">วันเดือนปีเกิด <span class="required">*</span></label>
             <input type="date" id="dob" name="dob" required>
         </div>
+
+        <div>
+            <label for="genre">ประเภทของหนังสือที่สนใจ <span class="required">*</span></label>
+            <select id="genre" name="genre" required>
+                <option value="">-- กรุณาเลือกประเภทหนังสือ --</option>
+                <option value="fiction">นวนิยาย</option>
+                <option value="nonfiction">สารคดี</option>
+                <option value="science">วิทยาศาสตร์</option>
+                <option value="technology">เทคโนโลยี</option>
+                <option value="socialscience">สังคมศาสตร์</option>
+                <option value="arts">ศิลปะและวัฒนธรรม</option>
+                <option value="health">สุขภาพและการแพทย์</option>
+                <option value="education">การศึกษา</option>
+            </select>
+        </div>
+
+       
+        <label>ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมล</label>
+        <div class="checkbox">
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">รับข่าวสารข้อมูลของห้องสมุด</label>
+        </div>
+
+        
+        <button type="submit">สมัครสมาชิก</button>
 
     </form>
 
