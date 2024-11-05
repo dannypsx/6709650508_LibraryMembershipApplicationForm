@@ -1,9 +1,7 @@
-/* General styling */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
-    background-color: aliceblue;
 }
 
 h2 {
@@ -16,11 +14,33 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: white;
+    background-color: #f9f9f9;
 }
 
 label {
     display: block;
     margin-top: 10px;
+}
+
+
+input[type="text"]{
+    width: 90%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.gender {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top:10px;
+    text-align: center;
+}
+
+.required {
+    color: red;
 }
 
