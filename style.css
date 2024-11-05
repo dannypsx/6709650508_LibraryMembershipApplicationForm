@@ -25,18 +25,23 @@ form {
 
 label {
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-weight: bold;
 }
 
-
-input[type="text"]{
-    width: 90%;
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
 }
+
 input[type="radio"]{
     margin-top: 15px;
 }
