@@ -9,101 +9,99 @@
 </head>
 
 <body>
+    <div class="container">
+        <h2>Library Membership Registration Form</h2>
 
-    <h2>
-        <br>Library Membership</br>
-        <br>Registration</br>
-        <br>Form</br>
-    </h2>
 
-    <form>
-        <label for="fullname-th">ชื่อ - นามสกุล (ภาษาไทย) <span class="required">*</span></label>
-        <input type="text" id="fullname-th" name="fullname-th" required>
+        <form>
+            <label for="fullname-th">ชื่อ - นามสกุล (ภาษาไทย) <span class="required">*</span></label>
+            <input type="text" id="fullname-th" name="fullname-th" required>
 
-        <label for="fullname-en">Full Name (English) <span class="required">*</span></label>
-        <input type="text" id="fullname-en" name="fullname-en" required>
+            <label for="fullname-en">Full Name (English) <span class="required">*</span></label>
+            <input type="text" id="fullname-en" name="fullname-en" required>
 
-        <label>เพศ <span class="required">*</span></label>
-        <div class="gender">
-            <input type="radio" id="male" name="gender" value="male" required>
-            <label for="male">ชาย</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">หญิง</label>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">อื่น ๆ</label>
-        </div>
+            <label>เพศ <span class="required">*</span></label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">ชาย</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">หญิง</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">อื่น ๆ</label>
+            </div>
 
-        <label for="student-id">รหัสนักศึกษา <span class="required">*</span></label>
-        <input type="text" id="student-id" name="student-id" pattern="\d{10}" title="กรุณากรอกรหัสนักศึกษา 10 หลัก"
-            required>
+            <label for="student-id">รหัสนักศึกษา <span class="required">*</span></label>
+            <input type="text" id="student-id" name="student-id" pattern="\d{10}" title="กรุณากรอกรหัสนักศึกษา 10 หลัก"
+                required>
 
-        <div class="fac">
-            <label for="faculty">คณะที่ศึกษา <span class="required">*</span></label>
-            <select id="faculty" name="faculty" required>
-                <option value="">-- กรุณาเลือกคณะ --</option>
-                <option value="law">คณะนิติศาสตร์</option>
-                <option value="commerce">คณะพาณิชยศาสตร์และการบัญชี</option>
-                <option value="political">คณะรัฐศาสตร์</option>
-                <option value="economics">คณะเศรษฐศาสตร์</option>
-                <option value="socialwork">คณะสังคมสงเคราะห์ศาสตร์</option>
-                <option value="liberalarts">คณะศิลปศาสตร์</option>
-                <option value="journalism">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
-                <option value="sociology">คณะสังคมวิทยาและมานุษยวิทยา</option>
-                <option value="science">คณะวิทยาศาสตร์และเทคโนโลยี</option>
-                <option value="engineering">คณะวิศวกรรมศาสตร์</option>
-                <option value="architecture">คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
-                <option value="finearts">คณะศิลปกรรมศาสตร์</option>
-                <option value="publichealth">คณะสาธารณสุขศาสตร์</option>
-                <option value="dentistry">คณะทันตแพทยศาสตร์</option>
-                <option value="alliedhealth">คณะสหเวชศาสตร์</option>
-                <option value="nursing">คณะพยาบาลศาสตร์</option>
-                <option value="medicine">คณะแพทยศาสตร์</option>
-                <option value="pharmacy">คณะเภสัชศาสตร์</option>
-                <option value="education">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
-                <option value="innovation">วิทยาลัยนวัตกรรม</option>
-                <option value="puey">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
-                <option value="pbic">วิทยาลัยนานาชาติปรีดี พนมยงค์</option>
-                <option value="intermed">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
-                <option value="cic">วิทยาลัยสหวิทยาการ</option>
-                <option value="socialcom">คณะนวัตกรรมการสื่อสารสังคม</option>
-            </select>
-        </div>
+            <div class="fac">
+                <label for="faculty">คณะที่ศึกษา <span class="required">*</span></label>
+                <select id="faculty" name="faculty" required>
+                    <option value="">-- กรุณาเลือกคณะ --</option>
+                    <option value="law">คณะนิติศาสตร์</option>
+                    <option value="commerce">คณะพาณิชยศาสตร์และการบัญชี</option>
+                    <option value="political">คณะรัฐศาสตร์</option>
+                    <option value="economics">คณะเศรษฐศาสตร์</option>
+                    <option value="socialwork">คณะสังคมสงเคราะห์ศาสตร์</option>
+                    <option value="liberalarts">คณะศิลปศาสตร์</option>
+                    <option value="journalism">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                    <option value="sociology">คณะสังคมวิทยาและมานุษยวิทยา</option>
+                    <option value="science">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                    <option value="engineering">คณะวิศวกรรมศาสตร์</option>
+                    <option value="architecture">คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
+                    <option value="finearts">คณะศิลปกรรมศาสตร์</option>
+                    <option value="publichealth">คณะสาธารณสุขศาสตร์</option>
+                    <option value="dentistry">คณะทันตแพทยศาสตร์</option>
+                    <option value="alliedhealth">คณะสหเวชศาสตร์</option>
+                    <option value="nursing">คณะพยาบาลศาสตร์</option>
+                    <option value="medicine">คณะแพทยศาสตร์</option>
+                    <option value="pharmacy">คณะเภสัชศาสตร์</option>
+                    <option value="education">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                    <option value="innovation">วิทยาลัยนวัตกรรม</option>
+                    <option value="puey">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
+                    <option value="pbic">วิทยาลัยนานาชาติปรีดี พนมยงค์</option>
+                    <option value="intermed">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+                    <option value="cic">วิทยาลัยสหวิทยาการ</option>
+                    <option value="socialcom">คณะนวัตกรรมการสื่อสารสังคม</option>
+                </select>
+            </div>
 
-        <div class="email">
-            <label for="email">ที่อยู่อีเมล (E-mail Address) <span class="required">*</span></label>
-            <input type="email" id="email" name="email" required>
-        </div>
+            <div class="email">
+                <label for="email">ที่อยู่อีเมล (E-mail Address) <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-        <div class="date">
-            <label for="dob">วันเดือนปีเกิด <span class="required">*</span></label>
-            <input type="date" id="dob" name="dob" required>
-        </div>
+            <div class="date">
+                <label for="dob">วันเดือนปีเกิด <span class="required">*</span></label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
 
-        <div>
-            <label for="genre">ประเภทของหนังสือที่สนใจ <span class="required">*</span></label>
-            <select id="genre" name="genre" required>
-                <option value="">-- กรุณาเลือกประเภทหนังสือ --</option>
-                <option value="fiction">นวนิยาย</option>
-                <option value="nonfiction">สารคดี</option>
-                <option value="science">วิทยาศาสตร์</option>
-                <option value="technology">เทคโนโลยี</option>
-                <option value="socialscience">สังคมศาสตร์</option>
-                <option value="arts">ศิลปะและวัฒนธรรม</option>
-                <option value="health">สุขภาพและการแพทย์</option>
-                <option value="education">การศึกษา</option>
-                <option value="other">อื่นๆ</option>
-            </select>
-        </div>
+            <div>
+                <label for="genre">ประเภทของหนังสือที่สนใจ <span class="required">*</span></label>
+                <select id="genre" name="genre" required>
+                    <option value="">-- กรุณาเลือกประเภทหนังสือ --</option>
+                    <option value="fiction">นวนิยาย</option>
+                    <option value="nonfiction">สารคดี</option>
+                    <option value="science">วิทยาศาสตร์</option>
+                    <option value="technology">เทคโนโลยี</option>
+                    <option value="socialscience">สังคมศาสตร์</option>
+                    <option value="arts">ศิลปะและวัฒนธรรม</option>
+                    <option value="health">สุขภาพและการแพทย์</option>
+                    <option value="education">การศึกษา</option>
+                    <option value="other">อื่นๆ</option>
+                </select>
+            </div>
 
-        <label>ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมล</label>
-        <div class="checkbox">
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <label for="subscribe">รับข่าวสารข้อมูลของห้องสมุด</label>
-        </div>
+            <label>ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมล</label>
+            <div class="checkbox">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">รับข่าวสารข้อมูลของห้องสมุด</label>
+            </div>
 
-        <button type="submit">สมัครสมาชิก</button>
+            <button type="submit">สมัครสมาชิก</button>
+        </form>
+    </div>
 
-    </form>
 
 </body>
 
