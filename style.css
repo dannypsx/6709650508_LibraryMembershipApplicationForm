@@ -139,5 +139,16 @@ button[type="submit"]:hover {
         font-size: 12px;
     }
 
-    
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select {
+        font-size: 11px;
+        padding: 7px;
+    }
+
+    button[type="submit"] {
+        font-size: 12px;
+        padding: 8px;
+    }
 }
